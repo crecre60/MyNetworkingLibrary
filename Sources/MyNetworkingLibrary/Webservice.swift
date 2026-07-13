@@ -18,7 +18,7 @@ public class Webservice {
     private let session: URLSession
     private let decoder = JSONDecoder()   // reuse the decoder
     
-    init(session: URLSession = .shared) {
+    public init(session: URLSession = .shared) {
         self.session = session
     }
     
